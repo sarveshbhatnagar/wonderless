@@ -5,6 +5,10 @@ url="https://api.github.com"
 
 # set token to your GitHub access token (public access)
 token="4140e8459f083a8c580031c53241713b36b81668"
+# token = "V6uWnu8JqeqOAHVb+P6CxXhA9FYVIxaL04xe0CEQjV8"
+# token = "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"
+# LATEST PERSONAL TOKEN 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
+
 
 today=$(date +"%Y-%m-%d")
 
@@ -23,6 +27,8 @@ token_test()
 {
   if [ -n "$token" ]; then
     token_cmd="Authorization: token $token"
+    echo "$token"
+    echo -n "$token"
   else
     echo "You must set a Personal Access Token to the GITHUB_TOKEN environment variable"
     exit 1

@@ -297,4 +297,8 @@ Temporary Items
 .apdisk
 
 
+# 
+*.file
+*.ini
+
 # End of https://www.gitignore.io/api/latex
