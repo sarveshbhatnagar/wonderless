@@ -4,7 +4,8 @@ import git
 
 # get the url for downloading the projects from Github
 def make_project_url(file_urls, project_urls):
-    wtr = csv.writer(open(project_urls, 'w'), delimiter=',', lineterminator='\n')
+    wtr = csv.writer(open(project_urls, 'w'),
+                     delimiter=',', lineterminator='\n')
     wtr.writerow(['Project_URLs'])
 
     with open(file_urls, newline='') as csvfile:

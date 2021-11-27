@@ -37,5 +37,5 @@ def filter_urls(file_urls, filtered_file_urls):
 # ----------------------------- MAIN --------------------------------------
 
 
-txt_to_csv('result-2020-07-29.txt', 'file_url.csv')
+txt_to_csv('result-2021-11-27.txt', 'file_url.csv')
 filter_urls('file_url.csv', 'file_urls.csv')

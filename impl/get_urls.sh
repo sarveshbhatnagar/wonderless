@@ -4,7 +4,7 @@
 url="https://api.github.com"
 
 # set token to your GitHub access token (public access)
-token="4140e8459f083a8c580031c53241713b36b81668"
+token="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"
 # token = "V6uWnu8JqeqOAHVb+P6CxXhA9FYVIxaL04xe0CEQjV8"
 # token = "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"
 # LATEST PERSONAL TOKEN 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
